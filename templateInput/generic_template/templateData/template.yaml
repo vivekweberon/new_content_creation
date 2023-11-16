@@ -1,0 +1,31 @@
+---
+tabloidParent:
+  type: div
+  className: tabloidParent
+  css:
+    display: flex
+    flexDirection: row
+    flexWrap: wrap
+  children:
+    page1:
+      type: div
+      className: page
+      css:
+        position: relative
+        left: 0rem
+        top: 0rem
+        minHeight: 11in
+        height: auto
+        margin: 0
+        padding: 0
+        display: flex
+        flexDirection: column
+        justifyContent: space-between
+      children:
+        p1header:
+          type: div
+          css:
+            display: flex
+            flexDirection: column
+            alignItems: center
+            justifyContent: center

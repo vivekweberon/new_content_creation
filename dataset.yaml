@@ -1,0 +1,6 @@
+content_creation:
+  template: "templateInput"
+  userData: "userInput"
+  medium: "WEB"
+  ogTitle: "New Content from scratch"
+  ogDescription: "Newsletter"

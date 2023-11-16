@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  p {
+    text-indent: 30px;
+    margin: 0;
+  }
+  
+  @font-face {
+    font-family: 'arial';
+    font-style: normal;
+    vertical-align: middle;
+    src: url('https://raw.githubusercontent.com/weberon/fonts-in-weberon/master/all_fonts/arial.ttf');
+  }
+  @font-face {
+    font-family: 'arialBoldItalic';
+    font-style: normal;
+    vertical-align: middle;
+    src: url('https://raw.githubusercontent.com/weberon/fonts-in-weberon/master/all_fonts/arialbi.ttf');
+  }
+  @font-face {
+    font-family: 'times-new-roman-bold-italic';
+    font-style: normal;
+    vertical-align: middle;
+    src: url('https://raw.githubusercontent.com/weberon/fonts-in-weberon/master/all_fonts/times-new-roman-bold-italic-2.ttf');
+  }
+  @font-face {
+    font-family: 'times-new-roman-italic';
+    font-style: normal;
+    vertical-align: middle;
+    src: url('https://raw.githubusercontent.com/weberon/fonts-in-weberon/master/all_fonts/times-new-roman-italic.ttf');
+  }
+  @font-face {
+    font-family: 'times-new-roman-bold';
+    font-style: normal;
+    vertical-align: middle;
+    src: url('https://raw.githubusercontent.com/weberon/fonts-in-weberon/master/all_fonts/times-new-roman-bold.otf');
+  }
+  @font-face {
+    font-family: 'times-new-roman';
+    font-style: normal;
+    vertical-align: middle;
+    src: url('https://raw.githubusercontent.com/weberon/fonts-in-weberon/master/all_fonts/times-new-roman.ttf');
+  }
+  @font-face {
+    font-family: 'Inkfree';
+    font-style: normal;
+    vertical-align: middle;
+    src: url('https://raw.githubusercontent.com/weberon/fonts-in-weberon/master/all_fonts/Inkfree.ttf');
+  }
+  @font-face {
+    font-family: 'mvboli';
+    font-style: normal;
+    vertical-align: middle;
+    src: url('https://raw.githubusercontent.com/weberon/fonts-in-weberon/master/all_fonts/mvboli.ttf');
+  }
+  

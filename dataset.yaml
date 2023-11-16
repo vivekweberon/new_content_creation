@@ -1,6 +1,8 @@
 content_creation:
-  template: "templateInput"
-  userData: "userInput"
+  template: "templateInput/generic_template"
+  userData: "userInput/WEB"
   medium: "WEB"
   ogTitle: "New Content from scratch"
   ogDescription: "Newsletter"
+  ogImage: ""
+  

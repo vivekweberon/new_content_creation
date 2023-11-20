@@ -6,6 +6,7 @@ tabloidParent:
     display: flex
     flexDirection: row
     flexWrap: wrap
+    
   children:
     page1:
       type: div
@@ -21,6 +22,7 @@ tabloidParent:
         display: flex
         flexDirection: column
         justifyContent: space-between
+        backgroundColor: '#fdf0d5'
       children:
         p1header:
           type: div
@@ -29,3 +31,171 @@ tabloidParent:
             flexDirection: column
             alignItems: center
             justifyContent: center
+            # backgroundColor: cyan
+          children:
+            p1htitle:
+              type: text
+              css:
+                font-size: 50px 
+                font-family: 'Arial' 
+                font-weight: bold 
+                color: '#780000' 
+                text-align: center 
+                margin-bottom: 10px 
+                letter-spacing: 8px 
+                padding-top: 15px 
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)
+                # backgroundColor: cyan
+            p1hsec1line1:
+              type: text
+              css:
+                font-size: 30px 
+                font-family: 'Arial' 
+                color: '#c1121f'
+                text-align: center 
+                padding-top: 10px
+            p1hline2container:
+              type: div
+              css:
+                display: flex
+                flexDirection: row  
+                alignItems: center
+                justifyContent: center
+                gap: 80px
+                padding: 40px
+              children: 
+                p1hsec1line2:
+                  type: text
+                  css:
+                    background-color: '#d5bdaf' 
+                    padding: 30px 
+                    border-radius: 50% 
+                    white-space: nowrap 
+                    overflow: hidden 
+                    text-overflow: ellipsis 
+                    color: white 
+                    text-align: center
+                    marginRight: 30px
+                p1himage:
+                  type: img
+                  css:
+                    width: 150px
+                    height: 150px
+                    zIndex: 1
+                    marginLeft: 10px
+                p1blSec4Header:
+                  type: text
+                  css:
+                    position: absolute
+                    font-size: 20px 
+                    font-family: 'Arial' 
+                    font-weight: bold 
+                    color: '#2f4f4f'
+                    margin-left: 400px
+                    top: 360px
+        p1body:
+          type: div
+          css:
+            display: flex
+            flexDirection: row
+            flexWrap: wrap
+            alignItems: center
+            justifyContent: space-between
+            padding: 0.5rem
+            marginLeft: 20px
+            marginRight: 20px
+            gap: 1rem        
+          children:
+            page1BodyLeft:
+              type: div
+              css:
+                flex: 1 1 14rem
+                display: flex
+                flexDirection: column
+                alignItems: center
+                gap: 0.25rem
+                width: 50%
+              children:
+                p1blSec2Text1:
+                  type: text
+                  css:
+                    zIndex: 3
+                    textAlign: justify
+                    lineHeight: '1.2'
+                    fontSize: 15px
+                    fontFamily: times-new-roman-italic
+                    color: '#181715'
+                    paddingTop: 0.5rem
+                    paddingBottom: 0.5rem
+                p1blSec2Text2:
+                  type: text
+                  css:
+                    zIndex: 3
+                    textAlign: justify
+                    lineHeight: '1.2'
+                    fontSize: 15px
+                    fontFamily: times-new-roman-italic
+                    color: '#181715'
+                    paddingTop: 0.5rem
+                    paddingBottom: 0.5rem
+            page1BodyRight:
+              type: div
+              css:
+                flex: 1 1 14rem
+                display: flex
+                flexDirection: column
+                alignItems: center
+                gap: 0.25rem
+                # width: 50%
+              children:
+                p1brSec3Text1:
+                  type: text
+                  css:
+                    zIndex: 3
+                    textAlign: justify
+                    lineHeight: '1.2'
+                    fontSize: 15px
+                    fontFamily: times-new-roman-italic
+                    color: '#181715'
+                    paddingTop: 0.5rem
+                    paddingBottom: 0.5rem
+                p1brSec3Text2:
+                  type: text
+                  css:
+                    zIndex: 3
+                    textAlign: justify
+                    lineHeight: '1.2'
+                    fontSize: 15px
+                    fontFamily: times-new-roman-italic
+                    color: '#181715'
+                    paddingTop: 0.5rem
+                    paddingBottom: 0.5rem
+        p1footer:
+          type: div
+          css:
+            display: flex
+            flexDirection: row
+            alignItems: center
+            justifyContent: center
+            gap: 0.2rem
+            backgroundColor: '#063d71'
+          children:
+            footerText:
+              type: text
+              css:
+                zIndex: 3
+                alignItems: center
+                justifyContent: center
+                display: flex
+                padding: 0.5rem
+                fontSize: 1.25rem
+                fontFamily: times-new-roman
+                color: '#eff0f2'
+                float: none    
+                textAlign: center       
+
+
+    
+            
+
+                

@@ -1,8 +1,9 @@
 content_creation:
   template: "templateInput/generic_template"
-  userData: "userInput/WEB"
-  medium: "WEB"
-  ogTitle: "New Content from scratch"
-  ogDescription: "Newsletter"
+  userdata: "userInput/web"
+  dynamicDataYamlFile: "userInput/web/userData/dynamicData.yaml"
+  medium : "WEB"
+  ogTitle: ""
+  ogDescription: ""
   ogImage: ""
   

@@ -3,10 +3,14 @@ windowTitle: "Newsletter 2023"
 tabloidParent:
   page1:
     p1header:
-      p1htitle: Newsletter
+      p1htitle: NEWSLETTER
       p1hsec1line1: Your Home sold GUARANTEED or I will Buy it at a Price Acceptable to You !
-      p1hsec1line2: To discuss the sale of your home call the Gastineau real estate team at 480-409-XXXX
-      p1himage:
+      p1hline2container:
+        p1hsec1line2: To discuss the sale of your home </br>
+                        call the Gastineau real estate team </br>
+                        at 480-409-XXXX
+        p1himage: img/image-002.jpg
+        p1blSec4Header: "{{ppdc: brand_person_first_name}} {{ppdc: brand_person_last_name}}"
     p1body:
       page1BodyLeft:
         p1blSec2Text1: According to a recent survey by the MLS, 78% of all homes did not sell
@@ -19,16 +23,35 @@ tabloidParent:
                       bank account.
         p1blSec2Text2: To discuss the sale of your home call us today at 480-409-XXXX.        
       page1BodyRight: 
-        p1brSec3Text1: <ul>
-                        <li>We GUARANTEE, in writing, that your home will sell at a price
-                        agreeable to you or we will buy it! No Gimmicks. It is all in
-                        writing.</li>
-                        <li>I’ve copied and pasted a screen shot of our Buyers-In-Waiting
-                        database as proof that we can make such a bold guarantee as I have.</li>
-                        <li>These are buyers that have registered with us and want to buy
-                        homes. Because we have so many well qualified Buyers you get more
-                        money in less time and with less hassle!</li>
-                      </ul>
+        p1brSec3Text1: |
+                       
+                        <ul>
+                        <div class="zeropara1">
+                          <li>We GUARANTEE, in writing, that your home will sell at a price
+                          agreeable to you or we will buy it! No Gimmicks. It is all in
+                          writing.</li>
+                        </div>
+                        <div class="zeropara1">
+                          <li>I’ve copied and pasted a screen shot of our Buyers-In-Waiting
+                          database as proof that we can make such a bold guarantee as I have.</li>
+                        </div>
+                        <div class="zeropara1">
+                          <li>These are buyers that have registered with us and want to buy
+                          homes. Because we have so many well qualified Buyers you get more
+                          money in less time and with less hassle!</li>
+                        </div>
+                        </ul>
+                      
         p1brSec3Text2: There is a difference in real estate agents, the services they provide and
                         the results you get. You owe it to yourself to see first-hand the
                         difference that can benefit you.
+        p1brrighttext1: Sincerely,
+        p1brSignImg: 
+        p1brrighttext2: Marc </br>
+                        Gastineau </br>
+                        480-409-XXXX
+    p1footer:
+      footerText: |
+                  PS. Check out the attachments to this letter that show why you will net
+                  1.47% more money when we sell your house! That amounts to thousands of
+                  dollars in your pocket! 

@@ -24,7 +24,7 @@ tabloidParent:
         p1blSec2Text2: To discuss the sale of your home call us today at 480-409-XXXX.        
       page1BodyRight: 
         p1brSec3Text1: |
-                       
+                        <b><u> ★ 3 Important Details </u></b>
                         <ul>
                         <div class="zeropara1">
                           <li>We GUARANTEE, in writing, that your home will sell at a price
@@ -42,9 +42,10 @@ tabloidParent:
                         </div>
                         </ul>
                       
-        p1brSec3Text2: There is a difference in real estate agents, the services they provide and
-                        the results you get. You owe it to yourself to see first-hand the
-                        difference that can benefit you.
+        p1brSec3Text2: |
+                      There is a difference in real estate agents, the services they provide and
+                      the results you get. You owe it to yourself to see first-hand the
+                      difference that can benefit you.   
         p1brrighttext1: Sincerely,
         p1brSignImg: 
         p1brrighttext2: Marc </br>
@@ -55,3 +56,119 @@ tabloidParent:
                   PS. Check out the attachments to this letter that show why you will net
                   1.47% more money when we sell your house! That amounts to thousands of
                   dollars in your pocket! 
+
+  page2:
+    p1header:
+      # p1htitle: NEWSLETTER
+      p1hsec1line1: Your Home sold GUARANTEED or I will Buy it at a Price Acceptable to You !
+      p1hline2container:
+        p1hsec1line2: To discuss the sale of your home </br>
+                        call the Gastineau real estate team </br>
+                        at 480-409-XXXX
+        p1himage: img/image-002.jpg
+        p1blSec4Header: "{{ppdc: brand_person_first_name}} {{ppdc: brand_person_last_name}}"
+    p2body:
+      p2bodysection1: | 
+                      According to data from the Arizona Regional Multiple
+                      Listing Service, the Gastineau Real Estate Team sells
+                      their Listings for 1.47% more money than the average agent
+                      and Sells them 1.5 times faster! See important graphs
+                      below. Choose your agent wisely. Your bank account will
+                      appreciate it. We Promise!
+      page2bodycontainer:
+        page2bodyleftcontainer:
+          page2bodytext1: |
+                          <div className="textdiv">
+                            <u><b>SELL FOR MORE</b></u> </br>
+                            We sell our listings for 1.47% more in
+                            sales price. This means real dollars in
+                            YOUR pocket.
+                          </div>
+          
+          page2bodytext2: |
+                          <div className="textdiv">
+                            <u><b>ALMOST 2% MORE LIKELY TO SELL</b></u> </br>
+                            We sell nearly 93.3% of our listings
+                            compared to the average agent who only
+                            sells 91.5% of their listings. Don’t take the
+                            chance with the average agents track
+                            record.
+                          </div>
+          
+          page2bodytext3: |
+                          <u><b>SELL FASTER</b></u> </br>
+                          Per Arizona Regional MLS the average
+                          agent sells a home in 57 days while the
+                          Gastineau Real Estate Team average
+                          time for selling a home is only 39 days!
+          
+        page2bodyrightcontainer:
+          page2bodybox1: |
+                          <div className="boxdiv">
+                            <u><b>Average Agent</b></u> </br>
+                            Gastineau Real Estate Team
+                            Listings Sell For 1.47% More
+                            Than the Average Agent
+                          </div>
+          page2bodybox2: |
+                          <div className="boxdiv">
+                            <u><b>Average Agent Selling Success 91.5%</b></u> </br>
+                            Gastineau Real Estate Team
+                            Nearly 93.3% Selling
+                            Success
+                          </div>
+          page2bodybox3: |
+                          <u><b>Average Agent</b></u> </br>
+                          Gastineau Real Estate Team
+                          Listings Sell For 1.47% More
+                          Than the Average Agent
+    p2footer:
+      footerText2: |
+                  Gastineau Real Estate Team / Realty One Group / Exp4
+
+  page3:
+    page3header: |
+                Read what your former neighbors are saying about
+                Marc Gastineau and his Home Selling Team
+    page3container:
+      page3firstcontainer:
+        page3box1image: img/home1.jpeg
+        page3text1: | 
+                  10 OFFERS within days and we Sold for $46k over list price
+                  After interviewing other agents we knew Marc Gastineau was the right
+                  choice for us. He and his team helped us each step of the way. Marc
+                  presented us several offers within days of listing our home and the home
+                  ended up selling for more than our list price. Since we first interviewed
+                  Marc he has Sold 2 homes for us and helped us buy 2 homes. I’d highly
+                  recommend using Marc Gastineau and his team to any of my friends
+                  and family...</br>
+                  <b>Marc & Kim Hernandez
+                  Gilbert Az</b> <hr style="border: 2px solid #008000; margin: 20px 0;">
+      page3secondcontainer:
+        page3text2: | 
+                  Marc and his team got me 105% of
+                  market value...when my previous
+                  agent had it listed for 289 days and
+                  couldn’t sell it!
+                  I should have called the Gastineau
+                  Real Estate Team first! Thanks for a
+                  smooth sale! <br>
+                  <b>Gayle Baker
+                  Mesa, Az.</b> <hr style="border: 2px solid #008000; margin: 20px 0;">
+        page3box2image: img/home1.jpeg
+      page3thirdcontainer:
+        page3box3image: img/home1.jpeg
+        page3text3: | 
+                  10 OFFERS within days and we Sold for $46k over list price
+                  After interviewing other agents we knew Marc Gastineau was the right
+                  choice for us. He and his team helped us each step of the way. Marc
+                  presented us several offers within days of listing our home and the home
+                  ended up selling for more than our list price. Since we first interviewed
+                  Marc he has Sold 2 homes for us and helped us buy 2 homes. I’d highly
+                  recommend using Marc Gastineau and his team to any of my friends
+                  and family...</br>
+                  <b>Marc & Kim Hernandez
+                  Gilbert Az</b> <hr style="border: 2px solid #008000; margin: 20px 0;">
+    p3footer:
+      footerText3: |
+                  Gastineau Real Estate Team / Realty One Group / Exp4

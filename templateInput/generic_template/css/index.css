@@ -7,11 +7,68 @@ p {
   margin: 0;
 }
 
+#dollarImage{
+  width: 70px;
+  position: absolute;
+  height: 30px;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#starImg{
+  width: 60px;
+  position: absolute;
+  left:12px;
+  height: 50px;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#starImg1{
+  width: 50px;
+  position: absolute;
+  left:16px;
+  height: 40px;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#starImg2{
+  width: 40px;
+  position: absolute;
+  left:18px;
+  height: 30px;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 @font-face {
   font-family: 'arial';
   font-style: normal;
   vertical-align: middle;
   src: url('https://raw.githubusercontent.com/weberon/fonts-in-weberon/master/all_fonts/arial.ttf');
+}
+@font-face {
+  font-family: 'Courier';
+  font-style: normal;
+  vertical-align: middle;
+  src: url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap');
+}
+@font-face {
+  font-family: 'IBMplex';
+  font-style: normal;
+  vertical-align: middle;
+  src: url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&family=IBM+Plex+Sans:wght@300&display=swap');
+}
+/* @font-face {
+  font-family: 'DecodedFont';
+  src: url('decoded-font.woff') format('woff');
+} */
+@font-face {
+  font-family: 'roboto';
+  font-style: normal;
+  vertical-align: middle;
+  src: url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
 }
 @font-face {
   font-family: 'arialBoldItalic';
@@ -125,6 +182,11 @@ p {
   border-style: solid;
   padding: 10px;
   border-radius: 20px;
+}
+
+.text{
+  font-size: 17px;
+  color: black
 }
 
 @media all and (max-width: 8.5in){

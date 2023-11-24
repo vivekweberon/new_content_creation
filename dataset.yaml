@@ -7,3 +7,12 @@ content_creation:
   ogDescription: ""
   ogImage: ""
   
+content_creation1:
+  template: "templateInput/generic_template"
+  userdata: "userInput/Draft_2"
+  dynamicDataYamlFile: "userInput/Draft_2/userData/dynamicData.yaml"
+  medium : "WEB"
+  ogTitle: ""
+  ogDescription: ""
+  ogImage: ""
+  

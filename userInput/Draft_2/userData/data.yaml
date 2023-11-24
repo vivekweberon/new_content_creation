@@ -1,0 +1,70 @@
+---
+windowTitle: "Newsletter 2023"
+tabloidParent:
+  page1:
+    p1header:
+      # p1htitle:
+      p1hsec1line1: |
+                    <div>
+                      <b>Your Home Sold <u>GUARANTEED</u> or I Will Buy It At A Price Acceptable To You! </b></br>
+                    </div>
+                    <div class='text'>
+                      <b>To discuss the sale of your home </br>
+                      call the Gastineau real estate team </br>
+                      at 480-409-XXXX</b>
+                    <div>
+      p1hscribble: "img/scribble.png"
+      p1hline2container:
+        p1himage: img/image-002.jpg 
+        p1blSec4Header: "<b>{{ppdc: brand_person_first_name}} {{ppdc: brand_person_last_name}}</b> <br> {{ppdc: brand_address_street}}"
+    p1body:
+      # page1BodyLeft:
+      p1blSec2Text1: According to a recent survey by the MLS, 78% of all homes did not sell
+                    with the agent the sellers chose to list with the first time. This same
+                    survey reveals that 61% of these same sellers failed to sell their home
+                    again when they relisted with the same agent. This has led to over 23
+                    billion dollars in lost income for these home sellers.
+                    It will cost you nothing to discuss this sale with me but not calling me,
+                    according to the survey referred to above, it could be hazardous to your
+                    bank account. 
+      
+      p1blSec2Text2: <b>It will cost you nothing to discuss this sale with me but not calling me, <br> according to the survey referred to above, it could be hazardous to your bank account.</b> <img src="img/dollar.png" alt="Dollar Image" id="dollarImage">     
+      p1bldollarimg: "{{ppdc:dollar_image}}"   
+    # page1BodyRight: 
+      p1brSec3Text1: |
+                      <b><u>3 Important Details</u></b>
+                      <ol>
+                      <div class="zeropara1">
+                        <li><img src="img/star.png" alt="Dollar Image" id="starImg">We GUARANTEE, in writing, that your home will sell at a price
+                        agreeable to you or we will buy it! No Gimmicks. It is all in
+                        writing.</li>
+                      </div>
+                      <div class="zeropara1">
+                        <li><img src="img/star.png" alt="Dollar Image" id="starImg1">I’ve copied and pasted a screen shot of our Buyers-In-Waiting
+                        database as proof that we can make such a bold guarantee as I have.</li>
+                      </div>
+                      <div class="zeropara1">
+                        <li><img src="img/star.png" alt="Dollar Image" id="starImg2">These are buyers that have registered with us and want to buy
+                        homes. Because we have so many well qualified Buyers you get more
+                        money in less time and with less hassle!</li>
+                      </div>
+                      </ol>
+      p1flexcontainer:
+        p1brSec3img2: img/circle2.png   
+        p1brSec3Text3: To discuss the sale of your home call us today at 480-409-XXXX.            
+      p1brSec3Text2: |
+                    There is a difference in real estate agents, the services they provide and
+                    the results you get. You owe it to yourself to see first-hand the
+                    difference that can benefit you.   
+      p1brrighttext1: Sincerely,
+      p1brSignImg: img/image-006.png
+      p1brrighttext2: Marc </br>
+                      Gastineau </br>
+                      480-409-XXXX
+      p1brpstext: |
+                  PS. Check out the attachments to this letter that show why you will net
+                  1.47% more money when we sell your house! That amounts to thousands of
+                  dollars in your pocket!
+      p1barrowimg: "img/arrow.png"
+    p1footer:
+      footerText: Gastineau Real Estate Team / Realty ONE Group – Exp4

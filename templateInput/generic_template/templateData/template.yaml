@@ -59,7 +59,7 @@ tabloidParent:
               css:
                 position: absolute
                 width: 200px
-                height: 200px
+                height: 30px
                 top: 230px
                 left: 230px
                 zIndex: 1
@@ -86,10 +86,13 @@ tabloidParent:
                 p1himage:
                   type: img
                   css:
-                    width: 130px
-                    height: 140px
+                    width: 120px
+                    height: 120px
                     zIndex: 1
                     boxShadow: 8px 8px 0px grey
+                    background-repeat: no-repeat
+                    background-size: 100%
+                    background-position-y: bottom
                     # gap: 10px
                     # marginLeft: 10px
 
@@ -274,12 +277,491 @@ tabloidParent:
                 display: flex
                 padding: 1rem
                 fontSize: 1rem
+                fontFamily: IBMplex
+                color: 'black'
+                float: none    
+                textAlign: center
+    page2:
+      type: div
+      className: page
+      css:
+        position: relative
+        left: 0rem
+        top: 0rem
+        minHeight: 11in
+        height: auto
+        margin: 0
+        padding: 0
+        display: flex
+        flexDirection: column
+        justifyContent: space-between
+        # backgroundColor: '#fdf0d5'
+      children:
+        p1header:
+          type: div
+          css:
+            display: flex
+            flexDirection: row
+            alignItems: center
+            justifyContent: center
+            # backgroundColor: cyan
+          children:
+            # p1htitle:
+            #   type: text
+            #   css:
+            #     display: flex
+            #     flexDirection: row  
+            #     alignItems: center
+            #     justifyContent: center
+            #     gap: 80px
+            #     padding: 40px
+            p1hsec1line1:
+              type: text
+              css:
+                font-size: 30px 
+                fontFamily: 'Courier'
+                lineHeight: 1.2
+                marginLeft: 25px
+                fontStyle: normal
+                fontWeight: normal
+                letterSpacing: 0.01px
+                color: '#C0504D'
+                text-align: center 
+                padding-top: 10px
+            # p1hscribble:
+            #   type: img
+            #   css:
+            #     position: absolute
+            #     width: 200px
+            #     height: 200px
+            #     top: 230px
+            #     left: 230px
+            #     zIndex: 1
+            #     background-repeat: no-repeat
+            #     background-size: 100%
+            p1hsec1line2:
+                  type: text
+                  css:
+                    font-size: 15px 
+                    font-family: Courier 
+                    color: '#c1121f'
+                    text-align: center 
+                    padding-top: 10px
+            p1hline2container:
+              type: div
+              css:
+                display: flex
+                flexDirection: column
+                alignItems: center
+                justifyContent: center
+                gap: 10px
+                padding: 40px
+              children: 
+                p1himage:
+                  type: img
+                  css:
+                    width: 120px
+                    height: 120px
+                    zIndex: 1
+                    boxShadow: 8px 8px 0px grey
+                    background-repeat: no-repeat
+                    background-size: 100%
+                    background-position-y: bottom
+                p1blSec4Header:
+                  type: text
+                  css:
+                    # position: absolute
+                    font-size: 15px 
+                    font-family: 'IBMplex' 
+                    textAlign: center
+                    # font-weight: bold 
+                    color: '#2f4f4f'
+                    # margin-left: 400px
+                    # top: 360px
+        p2body:
+          type: div
+          css:
+            display: flex
+            flexDirection: row
+            flexWrap: wrap
+            alignItems: center
+            justifyContent: space-between
+            padding: 0.5rem
+            marginLeft: 20px
+            marginRight: 20px
+            gap: 1rem
+            # background-color: cyanz
+          children:
+            p2bodysection1:
+              type: text
+              css:
+                zIndex: 3
+                textAlign: justify
+                lineHeight: '1.2'
+                fontSize: 17px
+                fontFamily: Courier
+                color: black
+                paddingTop: 0.5rem
+                paddingBottom: 0.5rem
+            p2hscribble:
+              type: img
+              css:
+                position: absolute
+                width: 200px
+                height: 30px
+                top: 380px
+                right: 50px
+                zIndex: 1
+                background-repeat: no-repeat
+                background-size: 100%
+            page2bodycontainer:
+              type: div
+              css:
+                display: flex
+                flexDirection: row
+                # flexWrap: wrap
+                # alignItems: center
+                justifyContent: space-between
+                padding: 0.5rem
+                # width: 50%
+                gap: 30px
+              children:
+                page2bodyleftcontainer:
+                  type: div
+                  css:
+                    display: flex
+                    position: relative
+                    flexDirection: column
+                    alignItems: center
+                    justifyContent: center
+                    gap: 150px
+                    padding: 40px
+                    # background-color: yellow
+                  children:
+                    page2bodytext1:
+                      type: text
+                      css:
+                        textAlign: center
+                        lineHeight: 20px
+                        fontFamily: IBMplex
+                    page2bodytext2:
+                      type: text
+                      css:
+                        textAlign: center
+                        lineHeight: 20px
+                    page2bodytext3:
+                      type: text
+                      css:
+                        textAlign: center
+                        lineHeight: 20px
+                page2bodyrightcontainer:   
+                  type: div
+                  css:
+                    display: flex
+                    flexDirection: column
+                    alignItems: center
+                    justifyContent: center
+                    gap: 20px
+                    # padding: 40px
+                    # background-color: yellow   
+                  children:
+                    page2bodybox1:
+                      type: text
+                      css:
+                        gap: 0.25rem
+                        fontFamily: Courier
+                        position: relative
+                        textAlign: center 
+                        borderStyle: solid 
+                        padding: 10px 
+                        borderRadius: 20px 
+                        lineHeight: 20px
+                        backgroundColor: '#dce6f2'
+                    page2bodybox2:
+                      type: text
+                      css:
+                        gap: 0.25rem
+                        fontFamily: Courier
+                        textAlign: center 
+                        borderStyle: solid 
+                        padding: 10px 
+                        lineHeight: 20px
+                        borderRadius: 20px 
+                        backgroundColor: '#dce6f2'
+                    page2bodybox3:
+                      type: text
+                      css:
+                        gap: 0.25rem
+                        fontFamily: Courier
+                        textAlign: center 
+                        borderStyle: solid 
+                        padding: 10px 
+                        lineHeight: 20px
+                        borderRadius: 20px
+                        backgroundColor: '#dce6f2'
+                # page2bodycontainer1:
+                #   type: div
+                #   css:
+                #     # display: flex
+                #     # flexDirection: column
+                #     alignItems: center
+                #     justifyContent: center
+                #   children:
+                #     page2container1text:
+                #       type: text
+                #       css:
+                #         gap: 0.25rem
+                #         rotate: 90deg
+                #         textAlign: center 
+                #         borderStyle: solid 
+                #         padding: 10px 
+                #         lineHeight: 20px
+                #         borderRadius: 20px 
+        p2footer:
+          type: div
+          css:
+            display: flex
+            flexDirection: row
+            alignItems: center
+            justifyContent: center
+            gap: 0.2rem
+            # backgroundColor: '#669bbc'
+          children:
+            footerText2:
+              type: text
+              css:
+                zIndex: 3
+                alignItems: center
+                justifyContent: center
+                display: flex
+                padding: 1rem
+                fontSize: 1rem
+                fontFamily: IBMplex
+                color: 'black'
+                float: none    
+                textAlign: center            
+    page3:
+      type: div
+      className: page
+      css:
+        position: relative
+        left: 0rem
+        top: 0rem
+        minHeight: 11in
+        height: auto
+        margin: 0
+        padding: 0
+        display: flex
+        flexDirection: column
+        justifyContent: space-between
+      children:
+        p3brSec1img1:
+          type: img
+          css:
+            position: absolute
+            height: 120px
+            width: 700px
+            left: 10px
+            top: 20px
+            background-repeat: no-repeat
+            background-image: url(img/circle2.png)
+            background-size: 100%
+        page3header:
+          type: text
+          css:
+            position: relative
+            font-size: 30px 
+            font-family: IBMplex 
+            color: '#c1121f'
+            text-align: center 
+            padding: 20px
+            top: 30px
+        page3container:
+          type: div
+          css:
+            display: flex
+            position: relative
+            flexDirection: column
+            # background-color: cyan
+            # alignItems: center
+            # justifyContent: center
+            gap: 80px
+            # padding: 40px
+          children:
+            page3firstcontainer:
+              type: div
+              css:
+                display: flex
+                position: relative
+                flexDirection: row
+              children:
+                page3box1image:
+                  type: img
+                  css:
+                    width: 130px
+                    height: 130px
+                    marginLeft: 80px
+                    marginTop: 10px
+                    backgroundRepeat: no-repeat
+                page3text1:
+                  type: text
+                  css:
+                    font-size: 15px 
+                    font-family: 'Montessarat' 
+                    color: black
+                    text-align: left
+                    # padding: 20px
+                    width: 60%
+                    marginLeft: 10px
+            page3blueline:
+              type: img
+              css:
+                position: absolute
+                width: 700px
+                height: 30px
+                left: 50px
+                top: 190px
+                backgroundRepeat: no-repeat
+            page3graphicimg:
+              type: img
+              css:
+                position: absolute
+                width: 150px
+                height: 150px
+                left: 460px
+                top: 100px
+                backgroundRepeat: no-repeat
+            # line:
+            #   type: text
+            #   css:
+            #     border: 2px solid '#008000'
+            page3secondcontainer:
+              type: div
+              css:
+                display: flex
+                position: relative
+                flexDirection: row
+              children:
+                page3text2:
+                  type: text
+                  css:
+                    font-size: 15px 
+                    font-family: 'Montessarat' 
+                    color: black
+                    text-align: left
+                    # padding: 20px
+                    width: 60%
+                    marginLeft: 60px
+                    marginRight: 10px
+                    marginTop: 40px
+                page3box2image:
+                  type: img
+                  css:
+                    width: 130px
+                    height: 130px
+                    marginRight: 80px
+                    marginTop: 10px
+                    backgroundRepeat: no-repeat
+            page3graphicimg1:
+              type: img
+              css:
+                position: absolute
+                width: 150px
+                height: 150px
+                left: 400px
+                top: 300px
+                backgroundRepeat: no-repeat
+            page3blueline1:
+              type: img
+              css:
+                position: absolute
+                width: 700px
+                height: 30px
+                left: 50px
+                top: 370px
+                backgroundRepeat: no-repeat
+            page3thirdcontainer:
+              type: div
+              css:
+                display: flex
+                position: relative
+                flexDirection: row
+              children:
+                page3box3image:
+                  type: img
+                  css:
+                    width: 130px
+                    height: 130px
+                    marginLeft: 80px
+                    marginTop: 10px
+                    backgroundRepeat: no-repeat
+                page3text3:
+                  type: text
+                  css:
+                    font-size: 15px 
+                    font-family: 'Montessarat' 
+                    color: black
+                    text-align: left
+                    # padding: 20px
+                    width: 60%
+                    marginLeft: 10px  
+                page3graphicimg2:
+                  type: img
+                  css:
+                    position: absolute
+                    width: 250px
+                    height: 230px
+                    left: 430px
+                    top: 80px
+                    backgroundSize: 100%
+                    backgroundRepeat: no-repeat
+            p3hsec3line: 
+              type: text
+              css:
+                font-size: 16px 
+                fontFamily: 'Courier'
+                lineHeight: 1.2
+                marginLeft: 25px
+                fontStyle: normal
+                fontWeight: normal
+                letterSpacing: 0.01px
+                color: '#C0504D'
+                text-align: center 
+                padding-top: 10px
+            page3graphicimg3:
+              type: img
+              css:
+                position: absolute
+                width: 150px
+                height: 150px
+                left: 590px
+                top: 770px
+                backgroundSize: 100%
+                backgroundRepeat: no-repeat
+        p3footer:
+          type: div
+          css:
+            display: flex
+            flexDirection: row
+            alignItems: center
+            justifyContent: center
+            gap: 0.2rem
+            # backgroundColor: '#669bbc'
+          children:
+            footerText3:
+              type: text
+              css:
+                zIndex: 3
+                font-size: 16px
+                alignItems: center
+                justifyContent: center
+                display: flex
+                padding: 1rem
+                # fontSize: 1.25rem 
                 fontFamily: times-new-roman
                 color: 'black'
                 float: none    
                 textAlign: center
-
-
 
             
 

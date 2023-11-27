@@ -15,6 +15,63 @@ p {
   background-repeat: no-repeat;
   background-size: 100%;
 }
+#smileyImage{
+  /* width: 70px; */
+  position: absolute;
+  /* height: 30px; */
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#bluedollar{
+  /* width: 70px; */
+  position: absolute;
+  top: 30px;
+  left: 290px;
+  /* height: 30px; */
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#clock{
+  /* width: 70px; */
+  position: absolute;
+  top: 490px;
+  left: 270px;
+  /* height: 30px; */
+  z-index: 1;
+  background-repeat: no-repeat; 
+  background-size: 100%;
+}
+#sadface{
+  position: absolute;
+  /* top: 910px; */
+  left: 160px;
+  /* height: 30px; */
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#bluearrow{
+  /* width: 70px; */
+  position: absolute;
+  top: 90px;
+  left: 210px;
+  /* height: 30px; */
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#wavearrow{
+  /* width: 70px; */
+  position: absolute;
+  top: 360px;
+  left: 350px;
+  /* height: 30px; */
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 #starImg{
   width: 60px;
   position: absolute;
@@ -58,7 +115,13 @@ p {
   font-family: 'IBMplex';
   font-style: normal;
   vertical-align: middle;
-  src: url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&family=IBM+Plex+Sans:wght@300&display=swap');
+  src: url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Roboto+Slab:wght@500&display=swap');
+}
+@font-face {
+  font-family: 'Montessarat';
+  font-style: normal;
+  vertical-align: middle;
+  src: url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Montserrat:wght@300&family=Roboto+Slab:wght@500&display=swap');
 }
 /* @font-face {
   font-family: 'DecodedFont';
@@ -163,30 +226,70 @@ p {
   font-weight: bold;
 }
 
-#textdiv{
-  flex: 1 1 14rem;
+.boxdiv{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 0.25rem;
-  width: 50%;
+  align-items: flex-start;
+  border-style: solid;
+  padding: 10px 10px 10px 0;
 }
-
-#boxdiv{
-  flex: 1 1 14rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.25rem;
-  text-align: center;
+.box1div{
   border-style: solid;
   padding: 10px;
-  border-radius: 20px;
+  margin-bottom: 2px;
+  background-color: #4f81bd;
 }
+.box2div{
+  border-style: solid;
+  padding: 10px;
+  background-color: #a6a6a6;
+}
+.footerhead{
+  display: flex;
+  flex-direction: row;
+  /* gap: 20px; */
+}
+#footerheadtext{
+  width: 180%;
+}
+
+#profileimg{
+  width: 120px;
+  height: 120px;
+  z-index: 1;
+  box-shadow: 8px 8px 0px grey;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: bottom;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#endtext{
+  text-align: left;
+  color: black;
+}
+.lefttext{
+  margin-bottom: 15px;
+  /* font-family: 'IBMplex'; */
+}
+/* .textdiv{
+  font-style: 'IBMplex';
+} */
 
 .text{
   font-size: 17px;
   color: black
+}
+/* #third{
+  rotate: 90deg;
+  width: 500px;
+  height: 500px;
+} */
+.highlight{
+  background-color: yellow;
+}
+.highlight1{
+  background-color: #4F81BD;
 }
 
 @media all and (max-width: 8.5in){

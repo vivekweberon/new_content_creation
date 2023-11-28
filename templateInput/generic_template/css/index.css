@@ -3,7 +3,7 @@ body {
   padding: 0;
 }
 p {
-  text-indent: 30px;
+  /* text-indent: 30px; */
   margin: 0;
 }
 
@@ -98,6 +98,11 @@ p {
   z-index: 1;
   background-repeat: no-repeat;
   background-size: 100%;
+}
+.page4text{
+  margin-bottom: 10px;
+  text-align: left;
+  color: black;
 }
 @font-face {
   font-family: 'arial';
@@ -252,7 +257,10 @@ p {
 #footerheadtext{
   width: 180%;
 }
-
+#footerheadtext1{
+  width: 180%;
+  font-size: 20px;
+}
 #profileimg{
   width: 120px;
   height: 120px;
@@ -261,7 +269,7 @@ p {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position-y: bottom;
-  margin-left: 20px;
+  margin-left: 60px;
   margin-right: 20px;
 }
 #endtext{

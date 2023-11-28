@@ -10,7 +10,7 @@ tabloidParent:
                     </div>
                     <div class='text'>
                       <b>To discuss the sale of your home </br>
-                      call the Gastineau real estate team </br>
+                      call the Maroli Team </br>
                       at 480-409-XXXX</b>
                     <div>
       p1hscribble: "img/scribble.png"
@@ -67,7 +67,7 @@ tabloidParent:
                   dollars in your pocket!
       p1barrowimg: "img/arrow.png"
     p1footer:
-      footerText: Gastineau Real Estate Team / Realty ONE Group – Exp4
+      footerText: Maroli Team / Realty ONE Group – Exp4
 
   page2:
     p1header:
@@ -78,7 +78,7 @@ tabloidParent:
                     </div>
                     <div class='text'>
                       <b>To discuss the sale of your home </br>
-                      call the Gastineau real estate team </br>
+                      call the Maroli Team </br>
                       at 480-409-XXXX</b>
                     <div>
       # p1hscribble: "img/scribble.png"
@@ -88,7 +88,7 @@ tabloidParent:
     p2body:
       p2bodysection1: | 
                       According to data from the Arizona Regional Multiple
-                      Listing Service, <b>the Gastineau Real Estate Team</b> sells
+                      Listing Service, <b>the Maroli Team</b> sells
                       their Listings for <u>1.47% more money</u> than the average agent
                       and Sells them 1.5 times faster! See important graphs
                       below. <span class="highlight"><u>Choose your agent wisely</u></span>. Your bank account will
@@ -125,7 +125,7 @@ tabloidParent:
                             <div class="lefttext"><u><b>SELL FASTER</b></u> </br></div> <img src="img/clock.png" alt="BlueDollar Image" id="clock">
                             Per Arizona Regional MLS the average
                             agent sells a home in 57 days while the
-                            Gastineau Real Estate Team average
+                            Maroli Team average
                             time for selling a home is only 39 days!
                           </div>
         page2bodyrightcontainer:
@@ -134,7 +134,7 @@ tabloidParent:
                             <div class="box1div"><u><b>Average Agent</b></u> </br> </div>
                             <img src="img/sadface.png" alt="BlueDollar Image" id="sadface">
                             <div class="box2div">
-                              Gastineau Real Estate Team
+                              Maroli Team
                               Listings Sell For 1.47% More
                               Than the Average Agent
                             </div>
@@ -143,7 +143,7 @@ tabloidParent:
                           <div class="boxdiv">
                             <div class="box1div"><u><b>Average Agent <br> Selling Success 91.5%</b></u> </br></div>
                             <div class="box2div">
-                              Gastineau Real Estate Team
+                              Maroli Team
                               Nearly 93.3% Selling
                               Success
                             </div>
@@ -152,7 +152,7 @@ tabloidParent:
                           <div class="boxdiv">
                             <div class="box1div"><u><b>Average Agent</b></u> </br></div>
                             <div class="box2div">
-                              Gastineau Real Estate Team
+                              Maroli Team
                               Nearly 93.3% Selling
                               Success
                             </div>
@@ -164,7 +164,7 @@ tabloidParent:
         #                     </div>
     p2footer:
       footerText2: |
-                  Gastineau Real Estate Team / Realty One Group / Exp4
+                  Maroli Team / Realty One Group / Exp4
 
   page3:
     p3brSec1img1: img/bigcircle.png 
@@ -220,7 +220,7 @@ tabloidParent:
                       <div id='footerheadtext'>
                         <b>Your Home Sold <u>GUARANTEED</u> or I Will </br> Buy It At A Price Acceptable To You! </b>
                         To discuss the sale of your home </br>
-                        call the Gastineau real estate team </br>
+                        call the Maroli Team </br>
                         at 480-409-XXXX</b>
                       </div>
                       <img src="img/image-002.jpg" alt="Profile Image" id="profileimg">
@@ -235,4 +235,62 @@ tabloidParent:
       page3graphicimg3: img/redarrow.png
     p3footer:
       footerText3: |
-                  Gastineau Real Estate Team / Realty One Group / Exp4
+                  Maroli Team / Realty One Group / Exp4
+  page4:
+    page4header: |
+                Over 1,800 Buyers in Waiting that we have registered on our website. Here is a recent 
+                screenshot of the Home Buyers. These home buyers are looking to buy a home today.
+    page4graphicimg4: img/page4.png
+    page4container:
+      page4container1:
+        page4statimg: img/stats.jpg
+        page4footheader: |
+                      <div class='footerhead'>
+                        <div id='footerheadtext1'>
+                          <b>Your Home Sold <u>GUARANTEED</u> or I Will </br> Buy It At A Price Acceptable To You! </b> </br>
+                          To discuss the sale of your home </br>
+                          call the Maroli Team 
+                          at 480-409-XXXX</b>
+                        </div>
+                        <img src="img/image-002.jpg" alt="Profile Image" id="profileimg">
+                      <div>
+        page4circle2: img/circle2.png
+      page4container2: |
+                      <p class='page4text'>
+                      If you look closely you will notice that I have nearly 2,000
+                      home buyers looking 
+                      for a home in your
+                      area AND 499 of them 
+                      are High Quality 
+                      Home Buyers that 
+                      need a home ASAP. </br>
+                      </p>
+                      <p class='page4text'>
+                      Within 72 hours of 
+                      listing your home 
+                      for sale, we will
+                      activate a “Search 
+                      and Match” of your 
+                      home features to the 
+                      buyers in my 
+                      database. </p>
+                      <p class='page4text'>We are so confident 
+                      of selling your home 
+                      at your price, that 
+                      I guarantee it in 
+                      writing. </p>
+                      <p class='page4text'>Your Home Sold 
+                      GUARANTEED OR I will
+                      Buy It At a Price 
+                      Acceptable to You!* 
+                      To discuss the sale 
+                      of your home call us 
+                      at 480-409-XXXX and 
+                      Start Packing !!</p>
+      page4endimgs: img/endimgs.png  
+    p4footer:
+      footerText4: |
+                  Maroli Team / Realty One Group / Exp4
+        
+    
+  

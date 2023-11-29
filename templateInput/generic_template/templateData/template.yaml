@@ -780,7 +780,7 @@ tabloidParent:
         position: relative
         left: 0rem
         top: 0rem
-        maxHeight: 10in
+        maxHeight: 12.7in
         height: auto
         margin: 0
         padding: 0

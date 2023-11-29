@@ -199,7 +199,7 @@ p {
 .page{
   display: flex;
   flex-direction: column;
-  min-height: 11in;
+  max-height: 12.7in;
   width: 8.5in;
   justify-content: space-between;
   border: 1px solid black;

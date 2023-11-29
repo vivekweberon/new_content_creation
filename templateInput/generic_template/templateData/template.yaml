@@ -165,6 +165,16 @@ tabloidParent:
                 color: '#181715'
                 paddingLeft: 1.5rem
                 paddingRight: 1.5rem
+            # p1brsec3starimg:
+            #   type: img
+            #   css:
+            #     width: 60px
+            #     position: absolute
+            #     left: 12px
+            #     height: 50px
+            #     z-index: 1
+            #     background-repeat: no-repeat
+            #     background-size: 100%
             p1flexcontainer:
               type: div
               css:
@@ -765,16 +775,18 @@ tabloidParent:
 
     page4:
       type: div
-      className: page
+      className: page1
       css:
         position: relative
         left: 0rem
         top: 0rem
-        minWidth: 12.3in
-        minHeight: 8in
+        maxHeight: 10in
         height: auto
         margin: 0
         padding: 0
+        # display: flex
+        # flexDirection: column
+        # justifyContent: space-between
       children:
         page4header:
           type: text
@@ -790,9 +802,9 @@ tabloidParent:
           type: img
           css:
             position: absolute
-            width: 1100px
+            width: 700px
             height: 30px
-            top: 120px
+            top: 160px
             left: 40px
             zIndex: 1
             background-repeat: no-repeat
@@ -814,14 +826,14 @@ tabloidParent:
                 flexDirection: column
                 flexWrap: wrap
                 alignItems: center
-                justifyContent: space-between
+                # justifyContent: space-between
                 padding: 0.5rem
-                margin-left: 80px
+                # margin-left: 80px
               children:
                 page4statimg:
                   type: img
                   css:
-                    width: 850px
+                    width: 650px
                     height: 440px
                     # top: 230px
                     # left: 230px
@@ -845,7 +857,7 @@ tabloidParent:
                 page4circle2:
                   type: img
                   css:
-                    width: 550px
+                    width: 450px
                     height: 70px
                     position: absolute
                     top: 499px
@@ -856,7 +868,7 @@ tabloidParent:
             page4container2:
               type: text
               css:
-                font-size: 15px
+                font-size: 13px
                 position: relative 
                 font-family: Courier 
                 color: '#c1121f'
@@ -866,10 +878,10 @@ tabloidParent:
               type: img
               css:
                 position: absolute
-                width: 170px
-                height: 170px
+                width: 130px
+                height: 130px
                 # top: 230px
-                right: 30px
+                right: 10px
                 bottom: 0px
                 # left: 230px
                 zIndex: 1

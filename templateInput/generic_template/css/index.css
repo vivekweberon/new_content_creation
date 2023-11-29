@@ -81,6 +81,7 @@ p {
   background-repeat: no-repeat;
   background-size: 100%;
 }
+
 #starImg1{
   width: 50px;
   position: absolute;
@@ -203,6 +204,14 @@ p {
   justify-content: space-between;
   border: 1px solid black;
 }
+.page1{
+  display: flex;
+  flex-direction: column;
+  /* min-height: 6in; */
+  width: 8.5in;
+  /* justify-content: space-between; */
+  border: 1px solid black;
+}
 .page1HeaderLeft{
   display: flex;
   flex-direction: column;
@@ -259,7 +268,7 @@ p {
 }
 #footerheadtext1{
   width: 180%;
-  font-size: 20px;
+  font-size: 18px;
 }
 #profileimg{
   width: 120px;

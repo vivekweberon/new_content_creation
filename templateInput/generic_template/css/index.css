@@ -200,17 +200,17 @@ p {
   display: flex;
   flex-direction: column;
   min-height: 11.7in;
-  width: 8.3in;
+  /* width: 8.3in; */
   justify-content: space-between;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .page1{
   display: flex;
   flex-direction: column;
   /* min-height: 6in; */
-  width: 8.3in;
+  /* width: 8.3in; */
   /* justify-content: space-between; */
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .page1HeaderLeft{
   display: flex;

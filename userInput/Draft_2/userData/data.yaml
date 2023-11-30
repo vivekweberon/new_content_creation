@@ -171,7 +171,7 @@ tabloidParent:
     p3brSec1img1: img/bigcircle.png 
     page3header: |
                 Read what your former neighbors are saying about
-                Marc Gastineau and his Home Selling Team
+                Praveen Kumar and his Home Selling Team
     page3container:
       page3firstcontainer:
         page3box1image: img/home1.jpeg
@@ -223,7 +223,7 @@ tabloidParent:
                         <b>Your Home Sold <u>GUARANTEED</u> or I Will </br> Buy It At A Price Acceptable To You! </b>
                         To discuss the sale of your home </br>
                         call the Maroli Team </br>
-                        at 480-409-XXXX</b>
+                        at {{ppdc: brand_mobile}}</b>
                       </div>
                       <img src="img/image-002.jpg" alt="Profile Image" id="profileimg">
                       <div id='endtext'>
@@ -252,7 +252,7 @@ tabloidParent:
                           <b>Your Home Sold <u>GUARANTEED</u> or I Will </br> Buy It At A Price Acceptable To You! </b> </br>
                           To discuss the sale of your home </br>
                           call the Maroli Team 
-                          at 480-409-XXXX</b>
+                          at {{ppdc: brand_mobile}}</b>
                         </div>
                         <img src="img/image-002.jpg" alt="Profile Image" id="profileimg">
                       <div>
@@ -287,7 +287,7 @@ tabloidParent:
                       Acceptable to You!* 
                       To discuss the sale 
                       of your home call us 
-                      at 480-409-XXXX and 
+                      at {{ppdc: brand_mobile}} and 
                       Start Packing !!</p>
       page4endimgs: img/endimgs.png  
     p4footer:

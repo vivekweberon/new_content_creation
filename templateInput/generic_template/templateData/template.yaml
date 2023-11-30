@@ -14,8 +14,10 @@ tabloidParent:
         position: relative
         left: 0rem
         top: 0rem
-        maxHeight: 12.5in
+        maxHeight: 11.0333in
         height: auto
+        maxWidth: 8.5333in
+        width: auto
         margin: 0
         padding: 0
         display: flex
@@ -298,8 +300,10 @@ tabloidParent:
         position: relative
         left: 0rem
         top: 0rem
-        maxHeight: 12.5in
+        maxHeight: 11.0333in
         height: auto
+        maxWidth: 8.5333in
+        width: auto
         margin: 0
         padding: 0
         display: flex
@@ -558,8 +562,10 @@ tabloidParent:
         position: relative
         left: 0rem
         top: 0rem
-        maxHeight: 12.5in
+        maxHeight: 11.0333in
         height: auto
+        maxWidth: 8.5333in
+        width: auto
         margin: 0
         padding: 0
         display: flex
@@ -792,6 +798,8 @@ tabloidParent:
         top: 0rem
         maxHeight: 10in
         height: auto
+        maxWidth: 8.5333in
+        width: auto
         margin: 0
         padding: 0
         # display: flex

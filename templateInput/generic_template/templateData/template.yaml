@@ -48,7 +48,7 @@ tabloidParent:
               css:
                 font-size: 30px 
                 fontFamily: 'Courier'
-                lineHeight: 1.2
+                lineHeight: 1.4
                 marginLeft: 25px
                 fontStyle: normal
                 fontWeight: normal
@@ -277,7 +277,7 @@ tabloidParent:
             flexDirection: row
             alignItems: center
             justifyContent: center
-            gap: 0.2rem
+            # gap: 0.2rem
             # backgroundColor: '#669bbc'
           children:
             footerText:
@@ -412,12 +412,12 @@ tabloidParent:
                 zIndex: 3
                 position: relative
                 textAlign: justify
-                lineHeight: '1.2'
-                fontSize: 17px
+                # lineHeight: '1.2'
+                fontSize: 15px
                 fontFamily: Courier
                 color: black
-                paddingTop: 0.5rem
-                paddingBottom: 0.5rem
+                # paddingTop: 0.5rem
+                # paddingBottom: 0.5rem
             p2hscribble:
               type: img
               css:
@@ -539,7 +539,7 @@ tabloidParent:
             flexDirection: row
             alignItems: center
             justifyContent: center
-            gap: 0.2rem
+            # gap: 0.2rem
             # backgroundColor: '#669bbc'
           children:
             footerText2:
@@ -771,7 +771,7 @@ tabloidParent:
             flexDirection: row
             alignItems: center
             justifyContent: center
-            gap: 0.2rem
+            # gap: 0.2rem
             # backgroundColor: '#669bbc'
           children:
             footerText3:
@@ -912,7 +912,7 @@ tabloidParent:
             flexDirection: row
             alignItems: center
             justifyContent: center
-            gap: 0.2rem
+            # gap: 0.2rem
             # backgroundColor: '#669bbc'
           children:
             footerText4:

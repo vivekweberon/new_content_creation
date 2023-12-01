@@ -23,12 +23,9 @@ tabloidParent:
                     with the agent the sellers chose to list with the first time. This same
                     survey reveals that 61% of these same sellers failed to sell their home
                     again when they relisted with the same agent. This has led to over 23
-                    billion dollars in lost income for these home sellers.
-                    It will cost you nothing to discuss this sale with me but not calling me,
-                    according to the survey referred to above, it could be hazardous to your
-                    bank account. 
+                    billion dollars in lost income for these home sellers. 
       
-      p1blSec2Text2: <b>It will cost you nothing to discuss this sale with me but not calling me, <br> according to the survey referred to above, it could be hazardous to your bank account.</b> <img src="img/dollar.png" alt="Dollar Image" id="dollarImage">     
+      p1blSec2Text2: <b>It will cost you nothing to discuss this sale with me but not calling me, could be hazardous to your bank account.</b> <img src="img/dollar.png" alt="Dollar Image" id="dollarImage">     
       # p1bldollarimg: "{{ppdc:dollar_image}}"   
     # page1BodyRight: 
       p1brSec3Text1: |
@@ -41,7 +38,7 @@ tabloidParent:
                       </div>
                       <div class="zeropara1">
                         <li><img src="img/star.png" alt="Star Image" id="starImg1">I’ve copied and pasted a screen shot of our Buyers-In-Waiting
-                        database as proof that we can make such a bold guarantee as I have.</li>
+                        database as proof that we can make and keep such a bold guarantee.</li>
                       </div>
                       <div class="zeropara1">
                         <li><img src="img/star.png" alt="Star Image" id="starImg2">These are buyers that have registered with us and want to buy
@@ -59,16 +56,15 @@ tabloidParent:
                     difference that can benefit you.   
       p1brrighttext1: Sincerely,
       p1brSignImg: img/image-006.png
-      p1brrighttext2: Marc </br>
-                      Gastineau </br>
-                      {{ppdc:brand_mobile}}
+      p1brrighttext2: '{{ppdc:brand_person_first_name}} {{ppdc:brand_person_last_name}} </br>
+                      {{ppdc:brand_mobile}}'
       p1brpstext: |
                   PS. Check out the attachments to this letter that show why you will net
                   1.47% more money when we sell your house! That amounts to thousands of
                   dollars in your pocket!
       p1barrowimg: "img/arrow.png"
     p1footer:
-      footerText: Maroli Team / Realty ONE Group – Exp4
+      footerText: Maroli Team / Your Home Sold Guaranteed or I'll Buy it!
 
   page2:
     p1header:
@@ -102,9 +98,9 @@ tabloidParent:
                             <div class='lefttext'><u><b>SELL FOR MORE</b></u> </br></div> <img src="img/bluedollar.png" alt="BlueDollar Image" id="bluedollar">
                             <div>
                               We sell our listings for 1.47% more in
-                              sales price. This means real dollars in
+                              sales price. This means more real dollars in
                               YOUR pocket.
-                              <img src="img/bluearrow.png" alt="BlueDollar Image" id="bluearrow">
+                              <img src="img/bluearrow.png" alt="Bluearrow Image" id="bluearrow">
                             </div>
                           </div>
           
@@ -112,19 +108,19 @@ tabloidParent:
                           <div class="textdiv">
                             <div class='lefttext'><u><b>ALMOST 2% MORE LIKELY TO SELL</b></u> </br></div>
                             <div>
-                              We sell nearly 93.3% of our listings
+                              We sell nearly 99.2% of our listings
                               compared to the average agent who only
                               sells 91.5% of their listings. Don’t take the
                               chance with the average agents track
                               record.
-                              <img src="img/wavearrow.png" alt="BlueDollar Image" id="wavearrow">
+                              <img src="img/wavearrow.png" alt="Wavearrow Image" id="wavearrow">
                             </div>
                           </div>
           
           page2bodytext3: |
                           <div class="textdiv">
-                            <div class="lefttext"><u><b>SELL FASTER</b></u> </br></div> <img src="img/clock.png" alt="BlueDollar Image" id="clock">
-                            Per Arizona Regional MLS the average
+                            <div class="lefttext"><u><b>SELL FASTER</b></u> </br></div> <img src="img/clock.png" alt="Clock Image" id="clock">
+                            Per California MLS the average
                             agent sells a home in 57 days while the
                             Maroli Team average
                             time for selling a home is only 39 days!
@@ -133,7 +129,7 @@ tabloidParent:
           page2bodybox1: |
                           <div class="boxdiv">
                             <div class="box1div"><u><b>Average Agent</b></u> </br> </div>
-                            <img src="img/sadface.png" alt="BlueDollar Image" id="sadface">
+                            <img src="img/sadface.png" alt="Sad face Image" id="sadface">
                             <div class="box2div">
                               Maroli Team
                               Listings Sell For 1.47% More
@@ -144,18 +140,16 @@ tabloidParent:
                           <div class="boxdiv">
                             <div class="box1div"><u><b>Average Agent <br> Selling Success 91.5%</b></u> </br></div>
                             <div class="box2div">
-                              Maroli Team
-                              Nearly 93.3% Selling
+                              Maroli Team 99.2% Selling
                               Success
                             </div>
                           </div>
           page2bodybox3: |
                           <div class="boxdiv">
-                            <div class="box1div"><u><b>Average Agent</b></u> </br></div>
+                            <div class="box1div"><u><b>Average Agent </br> 57 days to find buyer.</b></u> </br></div>
                             <div class="box2div">
-                              Maroli Team
-                              Nearly 93.3% Selling
-                              Success
+                              Maroli Team 
+                              46% faster to find a buyer.
                             </div>
                           </div>
         # page2bodycontainer1: 
@@ -165,40 +159,38 @@ tabloidParent:
         #                     </div>
     p2footer:
       footerText2: |
-                  Maroli Team / Realty One Group / Exp4
+                  Maroli Team / Your Home Sold Guaranteed or I'll Buy it!
 
   page3:
     p3brSec1img1: img/bigcircle.png 
     page3header: |
                 Read what your former neighbors are saying about
-                Praveen Kumar and his Home Selling Team
+                Praveen Kumar and the Maroli Selling Team
     page3container:
       page3firstcontainer:
         page3box1image: img/home1.jpeg
         page3text1: | 
                   <span class="highlight"><b>10 OFFERS within days and we Sold for $46k over list price </b></span></br>
-                  After interviewing other agents we knew Marc Gastineau was the right
-                  choice for us. He and his team helped us each step of the way. Marc
+                  After interviewing other agents we knew {{ppdc:brand_person_first_name}} {{ppdc:brand_person_last_name}} was the right
+                  choice for us. He and his team helped us each step of the way. {{ppdc:brand_person_first_name}}
                   presented us several offers within days of listing our home and the home
-                  ended up <u>selling for more than our list price</u>. Since we first interviewed
-                  Marc he has Sold 2 homes for us and helped us buy 2 homes. I’d highly
-                  recommend using Marc Gastineau and his team to any of my friends
+                  ended up <u>selling for more than our list price</u>. I’d highly
+                  recommend using {{ppdc:brand_person_first_name}} {{ppdc:brand_person_last_name}} and his team to any of my friends
                   and family...</br>
                   <b>Marc & Kim Hernandez
-                  Gilbert Az</b> 
+                  San Jose, CA</b> 
       page3graphicimg: img/amazing.png
       page3blueline: img/blueline.png
       page3secondcontainer:
         page3text2: | 
-                  <span class="highlight"><b>Marc and his team got me 105% of
+                  <span class="highlight"><b>{{ppdc:brand_person_first_name}} and his team got me 105% of
                   market value</b></span>...when <u>my previous
                   agent had it listed for 289 days <b>and
                   couldn’t sell it!</b></u>
-                  I should have called the Gastineau
-                  Real Estate Team first! Thanks for a
+                  I should have called the Maroli Team first! Thanks for a
                   smooth sale! <br>
                   <b>Gayle Baker
-                  Mesa, Az.</b> 
+                  San Jose, CA.</b> 
         page3box2image: img/home1.jpeg
       page3graphicimg1: img/cool.png
       page3blueline1: img/blueline.png
@@ -206,15 +198,14 @@ tabloidParent:
         page3box3image: img/home1.jpeg
         page3text3: | 
                   <span class="highlight"><b>10 OFFERS within days and we Sold for $46k over list price !</b></span> </br>
-                  After interviewing other agents we knew Marc Gastineau was the right
-                  choice for us. He and his team helped us each step of the way. Marc
+                  After interviewing other agents we knew {{ppdc:brand_person_first_name}} {{ppdc:brand_person_last_name}} was the right
+                  choice for us. He and his team helped us each step of the way. {{ppdc:brand_person_first_name}}
                   presented us several offers within days of listing our home and the home
-                  ended up selling for more than our list price. Since we first interviewed
-                  Marc he has Sold 2 homes for us and helped us buy 2 homes. I’d highly
-                  recommend using Marc Gastineau and his team to any of my friends
+                  ended up selling for more than our list price. I’d highly
+                  recommend using {{ppdc:brand_person_first_name}} {{ppdc:brand_person_last_name}} and his team to any of my friends
                   and family...</br>
                   <b>Marc & Kim Hernandez
-                  Gilbert Az</b>
+                  San Jose, CA</b>
         page3graphicimg2: img/incredible.png
         page3blueline2: img/blueline.png
       p3hsec3line: |
@@ -237,11 +228,11 @@ tabloidParent:
       page3graphicimg3: img/redarrow.png
     p3footer:
       footerText3: |
-                  Maroli Team / Realty One Group / Exp4
+                  Maroli Team / Your Home Sold Guaranteed or I'll Buy it!
   page4:
     page4header: |
-                Over 1,800 Buyers in Waiting that we have registered on our website. Here is a recent 
-                screenshot of the Home Buyers. These home buyers are looking to buy a home today.
+                Over 782 Buyers in Waiting that we have registered on our website. Here is a recent 
+                screenshot of Home Buyers. These home buyers are looking to buy a home today.
     page4graphicimg4: img/page4.png
     page4container:
       page4container1:
@@ -292,7 +283,7 @@ tabloidParent:
       page4endimgs: img/endimgs.png  
     p4footer:
       footerText4: |
-                  Maroli Team / Realty One Group / Exp4
+                  Maroli Team / Your Home Sold Guaranteed or I'll Buy it!
         
     
   
